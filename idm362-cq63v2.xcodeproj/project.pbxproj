@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C30DC56029B0975B00F053DB /* ViewControllerPlantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30DC55F29B0975B00F053DB /* ViewControllerPlantDetail.swift */; };
+		C3431D1229B081D100871083 /* ViewControllerAddPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3431D1129B081D100871083 /* ViewControllerAddPlant.swift */; };
+		C3431D1429B0853100871083 /* ViewControllerMyPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3431D1329B0853100871083 /* ViewControllerMyPlant.swift */; };
 		C35135CF2995A905001F2D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35135CE2995A905001F2D88 /* AppDelegate.swift */; };
 		C35135D12995A905001F2D88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35135D02995A905001F2D88 /* SceneDelegate.swift */; };
 		C35135D32995A905001F2D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35135D22995A905001F2D88 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C30DC55F29B0975B00F053DB /* ViewControllerPlantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPlantDetail.swift; sourceTree = "<group>"; };
+		C3431D1129B081D100871083 /* ViewControllerAddPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAddPlant.swift; sourceTree = "<group>"; };
+		C3431D1329B0853100871083 /* ViewControllerMyPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMyPlant.swift; sourceTree = "<group>"; };
 		C35135CB2995A905001F2D88 /* idm362-cq63v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "idm362-cq63v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35135CE2995A905001F2D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C35135D02995A905001F2D88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		C35135C22995A905001F2D88 = {
 			isa = PBXGroup;
 			children = (
+				C3431D1329B0853100871083 /* ViewControllerMyPlant.swift */,
+				C3431D1129B081D100871083 /* ViewControllerAddPlant.swift */,
 				C35135CD2995A905001F2D88 /* idm362-cq63v2 */,
 				C35135CC2995A905001F2D88 /* Products */,
 			);
@@ -60,6 +68,7 @@
 				C35135D02995A905001F2D88 /* SceneDelegate.swift */,
 				C35135D22995A905001F2D88 /* ViewController.swift */,
 				C35135D42995A905001F2D88 /* Main.storyboard */,
+				C30DC55F29B0975B00F053DB /* ViewControllerPlantDetail.swift */,
 				C35135D72995A906001F2D88 /* Assets.xcassets */,
 				C35135D92995A906001F2D88 /* LaunchScreen.storyboard */,
 				C35135DC2995A906001F2D88 /* Info.plist */,
@@ -140,6 +149,9 @@
 			files = (
 				C35135D32995A905001F2D88 /* ViewController.swift in Sources */,
 				C35135CF2995A905001F2D88 /* AppDelegate.swift in Sources */,
+				C3431D1229B081D100871083 /* ViewControllerAddPlant.swift in Sources */,
+				C30DC56029B0975B00F053DB /* ViewControllerPlantDetail.swift in Sources */,
+				C3431D1429B0853100871083 /* ViewControllerMyPlant.swift in Sources */,
 				C35135D12995A905001F2D88 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
