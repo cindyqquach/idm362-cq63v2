@@ -34,6 +34,7 @@
 		C35135D62995A905001F2D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35135D42995A905001F2D88 /* Main.storyboard */; };
 		C35135D82995A906001F2D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35135D72995A906001F2D88 /* Assets.xcassets */; };
 		C35135DB2995A906001F2D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35135D92995A906001F2D88 /* LaunchScreen.storyboard */; };
+		C37196AD29C2E04B00F795E5 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C37196AC29C2E04B00F795E5 /* success.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		C35135D72995A906001F2D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C35135DA2995A906001F2D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C35135DC2995A906001F2D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37196AC29C2E04B00F795E5 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = success.mp3; path = "idm362-cq63v2/success.mp3"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				C35135D72995A906001F2D88 /* Assets.xcassets */,
 				C35135D92995A906001F2D88 /* LaunchScreen.storyboard */,
 				C35135DC2995A906001F2D88 /* Info.plist */,
+				C37196AC29C2E04B00F795E5 /* success.mp3 */,
 				C30DC56129B09F2900F053DB /* Poppins */,
 			);
 			path = "idm362-cq63v2";
@@ -200,6 +203,7 @@
 				C30DC58129B09F2900F053DB /* Poppins-Black.ttf in Resources */,
 				C30DC57F29B09F2900F053DB /* Poppins-LightItalic.ttf in Resources */,
 				C30DC58229B09F2900F053DB /* Poppins-Thin.ttf in Resources */,
+				C37196AD29C2E04B00F795E5 /* success.mp3 in Resources */,
 				C30DC57D29B09F2900F053DB /* Poppins-BlackItalic.ttf in Resources */,
 				C30DC58329B09F2900F053DB /* Poppins-SemiBold.ttf in Resources */,
 				C30DC58029B09F2900F053DB /* Poppins-Bold.ttf in Resources */,
