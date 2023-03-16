@@ -36,6 +36,7 @@
 		C35135DB2995A906001F2D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35135D92995A906001F2D88 /* LaunchScreen.storyboard */; };
 		C37196AD29C2E04B00F795E5 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C37196AC29C2E04B00F795E5 /* success.mp3 */; };
 		C37E214B29C3042100BCD196 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E214A29C3042100BCD196 /* TableViewController.swift */; };
+		C37E214F29C31A8E00BCD196 /* ViewControllerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E214E29C31A8E00BCD196 /* ViewControllerDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		C35135DC2995A906001F2D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C37196AC29C2E04B00F795E5 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = success.mp3; path = "idm362-cq63v2/success.mp3"; sourceTree = SOURCE_ROOT; };
 		C37E214A29C3042100BCD196 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = "idm362-cq63v2/TableViewController.swift"; sourceTree = "<group>"; };
+		C37E214E29C31A8E00BCD196 /* ViewControllerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewControllerDetail.swift; path = "idm362-cq63v2/ViewControllerDetail.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		C35135C22995A905001F2D88 = {
 			isa = PBXGroup;
 			children = (
+				C37E214E29C31A8E00BCD196 /* ViewControllerDetail.swift */,
 				C37E214A29C3042100BCD196 /* TableViewController.swift */,
 				C3431D1329B0853100871083 /* ViewControllerMyPlant.swift */,
 				C3431D1129B081D100871083 /* ViewControllerAddPlant.swift */,
@@ -241,6 +244,7 @@
 				C30DC56029B0975B00F053DB /* ViewControllerPlantDetail.swift in Sources */,
 				C3431D1429B0853100871083 /* ViewControllerMyPlant.swift in Sources */,
 				C35135D12995A905001F2D88 /* SceneDelegate.swift in Sources */,
+				C37E214F29C31A8E00BCD196 /* ViewControllerDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
