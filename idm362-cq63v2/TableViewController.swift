@@ -75,34 +75,30 @@ class TableViewController: UITableViewController {
      */
     
     
-    @IBAction func addPlant(_ sender: Any) {
-        //Create an alert to add more plant
-        let alertObj = UIAlertController(title:"New Plant", message: "Add your new Plant", preferredStyle: .alert)
-        
-        let saveAction = UIAlertAction(title: "Save", style: .default) {
-        [unowned self] action in
-        guard let textField = alertObj.textFields?.first,
-              let nameToSave = textField.text else {
-            return
-        }
-        //Update array
-        self.pNames.append(nameToSave)
-        //Reload table
-        self.tableView.reloadData()
-    }
-        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
-    alertObj.addTextField()
-    alertObj.addAction(saveAction)
-    present(alertObj, animated:true)
-}
-    /*
+    
     // MARK: - Navigation
-
+    var selRowNum:Int = 0
+    var selRowName:String = ""
+    
+    override func tableView(_ tableView:UIView, didSelectRowAt indexPath: IndexPath){
+        print("Row selected \(indexPath.row.description)")
+        selRowNum = indexPath.row
+        selRowName = pNames[selRowNum]
+        
+        performSegue(withIdentifier: "showDetail", sender: nil)
+    }
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "showDetail" {
+            let detailObj = segue.destination as! ViewControllerDetail
+            detailObj.ndxNum = 3
+            detailObj.incomingName = selRowName
+        }
     }
-    */
+   
 
 }

@@ -8,22 +8,23 @@
 import UIKit
 
 class ViewControllerDetail: UIViewController {
+    //Set up vars for Segue
+    var ndxNum:Int?
+    var incomingName:String?
 
+    @IBOutlet weak var plantName: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        plantName.text = incomingName?.uppercased()
         // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        
+//    }
+//  
 
 }
