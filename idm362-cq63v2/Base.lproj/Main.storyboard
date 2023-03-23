@@ -607,7 +607,7 @@
                                     <segment title="Clay"/>
                                     <segment title="Loam"/>
                                 </segments>
-                                <color key="tintColor" name="AccentColor"/>
+                                <color key="tintColor" red="0.83137255909999996" green="0.90588235859999999" blue="0.93725490570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xsd-Zd-kLG"/>
