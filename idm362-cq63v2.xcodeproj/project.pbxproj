@@ -34,9 +34,11 @@
 		C35135D62995A905001F2D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35135D42995A905001F2D88 /* Main.storyboard */; };
 		C35135D82995A906001F2D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35135D72995A906001F2D88 /* Assets.xcassets */; };
 		C35135DB2995A906001F2D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35135D92995A906001F2D88 /* LaunchScreen.storyboard */; };
-		C37196AD29C2E04B00F795E5 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C37196AC29C2E04B00F795E5 /* success.mp3 */; };
 		C37E214B29C3042100BCD196 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E214A29C3042100BCD196 /* TableViewController.swift */; };
 		C37E214F29C31A8E00BCD196 /* ViewControllerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E214E29C31A8E00BCD196 /* ViewControllerDetail.swift */; };
+		C38AFE0D29CC3238001C7F20 /* ViewControllerMyPlants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AFE0C29CC3238001C7F20 /* ViewControllerMyPlants.swift */; };
+		C38AFE1129CC357E001C7F20 /* uisound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C38AFE1029CC357E001C7F20 /* uisound.mp3 */; };
+		C38AFE1329CCE52D001C7F20 /* ViewControllerPlantDetail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AFE1229CCE52D001C7F20 /* ViewControllerPlantDetail2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,9 +71,11 @@
 		C35135D72995A906001F2D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C35135DA2995A906001F2D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C35135DC2995A906001F2D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C37196AC29C2E04B00F795E5 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = success.mp3; path = "idm362-cq63v2/success.mp3"; sourceTree = SOURCE_ROOT; };
 		C37E214A29C3042100BCD196 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = "idm362-cq63v2/TableViewController.swift"; sourceTree = "<group>"; };
 		C37E214E29C31A8E00BCD196 /* ViewControllerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewControllerDetail.swift; path = "idm362-cq63v2/ViewControllerDetail.swift"; sourceTree = "<group>"; };
+		C38AFE0C29CC3238001C7F20 /* ViewControllerMyPlants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMyPlants.swift; sourceTree = "<group>"; };
+		C38AFE1029CC357E001C7F20 /* uisound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uisound.mp3; sourceTree = "<group>"; };
+		C38AFE1229CCE52D001C7F20 /* ViewControllerPlantDetail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPlantDetail2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,11 +141,13 @@
 				C35135D02995A905001F2D88 /* SceneDelegate.swift */,
 				C35135D22995A905001F2D88 /* ViewController.swift */,
 				C35135D42995A905001F2D88 /* Main.storyboard */,
+				C38AFE1229CCE52D001C7F20 /* ViewControllerPlantDetail2.swift */,
+				C38AFE0C29CC3238001C7F20 /* ViewControllerMyPlants.swift */,
 				C30DC55F29B0975B00F053DB /* ViewControllerPlantDetail.swift */,
 				C35135D72995A906001F2D88 /* Assets.xcassets */,
 				C35135D92995A906001F2D88 /* LaunchScreen.storyboard */,
 				C35135DC2995A906001F2D88 /* Info.plist */,
-				C37196AC29C2E04B00F795E5 /* success.mp3 */,
+				C38AFE1029CC357E001C7F20 /* uisound.mp3 */,
 				C30DC56129B09F2900F053DB /* Poppins */,
 			);
 			path = "idm362-cq63v2";
@@ -209,9 +215,9 @@
 				C30DC58129B09F2900F053DB /* Poppins-Black.ttf in Resources */,
 				C30DC57F29B09F2900F053DB /* Poppins-LightItalic.ttf in Resources */,
 				C30DC58229B09F2900F053DB /* Poppins-Thin.ttf in Resources */,
-				C37196AD29C2E04B00F795E5 /* success.mp3 in Resources */,
 				C30DC57D29B09F2900F053DB /* Poppins-BlackItalic.ttf in Resources */,
 				C30DC58329B09F2900F053DB /* Poppins-SemiBold.ttf in Resources */,
+				C38AFE1129CC357E001C7F20 /* uisound.mp3 in Resources */,
 				C30DC58029B09F2900F053DB /* Poppins-Bold.ttf in Resources */,
 				C30DC57429B09F2900F053DB /* Poppins-ExtraLight.ttf in Resources */,
 				C30DC57729B09F2900F053DB /* Poppins-BoldItalic.ttf in Resources */,
@@ -237,6 +243,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38AFE1329CCE52D001C7F20 /* ViewControllerPlantDetail2.swift in Sources */,
+				C38AFE0D29CC3238001C7F20 /* ViewControllerMyPlants.swift in Sources */,
 				C35135D32995A905001F2D88 /* ViewController.swift in Sources */,
 				C37E214B29C3042100BCD196 /* TableViewController.swift in Sources */,
 				C35135CF2995A905001F2D88 /* AppDelegate.swift in Sources */,
